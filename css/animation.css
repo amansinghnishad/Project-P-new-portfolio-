@@ -1,0 +1,111 @@
+
+/* ********************   animation      ************************ */
+
+
+@keyframes bounce-in {
+    0% {
+      transform: scale(0.1);
+      opacity: 0;
+    }
+  
+    60% {
+      transform: scale(1.2);
+      opacity: 1;
+    }
+  
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  
+  @keyframes enlarge {
+  
+    0% {
+      transform: scale(1);
+    }
+  
+    50% {
+      transform: scale(1.2);
+    }
+  
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  @keyframes color-change {
+    0% {
+      color: rgba(0, 0, 0, 0.636);
+    }
+  
+    25% {
+      color: rgb(121, 27, 27);
+    }
+  
+    50% {
+      color: rgba(187, 160, 9, 0.77);
+    }
+  
+    75% {
+      color: orange;
+    }
+  
+    100% {
+      color: rgba(128, 0, 128, 0.734);
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  @keyframes blink-caret {
+  
+    from,
+    to {
+      border-color: transparent
+    }
+  
+    50% {
+      border-color: black
+    }
+  }
+  
+  
+  
+  
+  @keyframes change-text {
+    0% {
+      content: "Web Developer.";
+    }
+  
+    50% {
+      content: "Student.";
+    }
+  
+    100% {
+      content: "Tech-Enthousiast.";
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

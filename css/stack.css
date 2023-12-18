@@ -1,0 +1,116 @@
+/* *************************      Tech-Stack   ************************************ */
+
+.stack {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 100%;
+  padding: 1rem;
+  margin: 0;
+  perspective: 1000px;
+}
+
+.stack-hedding{
+  text-align: center;
+  font-size: 36px;
+  padding-top: 10px;
+  width: 100%;
+  padding: 2.5%;
+}
+
+
+.tech-stack-container {
+  background-color: transparent;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 5rem;
+  width: 5rem;
+  perspective: 1000px;
+}
+
+.tech-stack {
+  height: 100%;
+  width: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  flex: 1 0 calc(20% - 10px);
+}
+
+.stack-img{
+
+  font-size: 2rem;
+}
+
+.tech-stack-container:hover .tech-stack {
+  transform: rotateY(180deg);
+}
+
+.tech-stack-front,
+.tech-stack-back {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 1rem;
+  color: black;
+  box-shadow: 0 0 0.3em rgba(255, 255, 255, 0.5);
+  font-weight: 700;
+}
+
+.tech-stack-front , .tech-stack-front::before {
+  background: linear-gradient(43deg , rgb(247, 167, 18) 0%, rgb(255, 0, 0) 100%);
+}
+
+.tech-stack-back, .tech-stack-back::before{
+  background: linear-gradient(43deg , rgb(121, 247, 18) 0%, rgb(0, 255, 136) 100%);
+
+}
+
+.tech-stack-back {
+  transform: rotateY(180deg);
+  transform-origin: center;
+}
+
+.tech-stack-front::before,
+.tech-stack-back::before {
+  top: 60%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  border-radius: 1em;
+  filter: blur(10px);
+  animation: blur-animate 5s linear infinite;
+}
+
+@keyframes blur-animate {
+  0% {
+    opacity: 0.3;
+  }
+
+  80% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0.3;
+  }
+}
