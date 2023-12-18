@@ -4,12 +4,16 @@
   margin-left: 10%;
   width: 80%;
   padding: 50px;
-  background-color: #f8f9fa;
+  background-color: #0d1117;
+  border: 2px solid white;
+  border-radius: 25px;
+  
 }
 
 .about-container h2 {
   font-size: 36px;
-  margin-bottom: 20px;
+  margin-bottom: 20px;  
+  color: #f8f9fa;
 }
 
 .about-contant {
@@ -19,6 +23,7 @@
   width: 60%;
   flex-wrap: wrap;
   justify-content: space-between;
+  color: #f8f9fa;
 
 }
 

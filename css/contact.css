@@ -3,6 +3,7 @@
 
 .contact-container {
   margin: 50px;
+  color: #f8f9fa;
 
 }
 
@@ -23,7 +24,8 @@
 .contact-container input,
 .contact-container textarea {
   padding: 10px;
-  border: none;
+  border: 2px 0px 0px 0px solid #f8f9fa;
+  background-color: #0d1117;
   border-radius: 5px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   width: 100%;

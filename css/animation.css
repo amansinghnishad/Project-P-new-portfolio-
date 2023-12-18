@@ -43,23 +43,23 @@
   
   @keyframes color-change {
     0% {
-      color: rgba(0, 0, 0, 0.636);
+      color: rgb(247, 44, 44);
     }
   
     25% {
-      color: rgb(121, 27, 27);
+      color: rgb(251, 255, 1);
     }
   
     50% {
-      color: rgba(187, 160, 9, 0.77);
+      color: rgb(24, 255, 47);
     }
   
     75% {
-      color: orange;
+      color: rgb(12, 254, 250);
     }
   
     100% {
-      color: rgba(128, 0, 128, 0.734);
+      color: rgb(221, 7, 196);
     }
   }
   

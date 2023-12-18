@@ -7,7 +7,7 @@
 body {
 
   font-family: 'Roboto', sans-serif , 'Arial','Helvetica Neue', Helvetica, Arial; 
-  background: rgba(149, 215, 241, 0.445);
+  background-color: #0d1117;
 }
 
 /* ********************    nav      ************************ */
@@ -15,7 +15,7 @@ body {
 .nav {
 
   height: auto;
-  background: rgb(140, 212, 245);
+  background-color: #0d1117;
   width: 100%;
   z-index: 10;
   position: fixed;
@@ -28,7 +28,7 @@ body {
 
 .nav-link {
 
-  color: #000000;
+  color: #f8f9fad1;
   text-decoration: none;
   font-weight: 500;
   font-size: 1.3rem;
@@ -37,7 +37,7 @@ body {
 
 .nav-link:hover {
 
-  color: #0000009f;
+  color: #f8f9fa;
   text-decoration: none;
   font-weight: 800;
   text-decoration: underline;
@@ -116,6 +116,7 @@ position: relative;
   animation: bounce-in 2s ease-out 1s;
   top: 25%;
   left: 45%;
+  color: #f8f9fa;
 }
 
 .name {
@@ -123,6 +124,7 @@ position: relative;
 }
 
 .sub-title {
+  color: #f8f9fa;
   position: absolute;
   top: 35%;
   right: 15%;
