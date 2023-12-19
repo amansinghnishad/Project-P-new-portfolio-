@@ -219,17 +219,70 @@ body {
 
 
 @media (max-width: 768px) {
+  
+  
   .img {
     width: 100%;
     height: auto;
-    top: 0;
+    position: absolute;
+    left: 7%;
   }
 
   .img-bg,
   .img-bg-2 {
-    position: static;
-    width: 100%;
-    height: auto;
-    border-radius: 0;
+    position: absolute;
+    height: 45%;
+    width: 40%;
+    top: 19.5%;
+    z-index: 0;
+    animation: bounce-in 1.5s ease-out 0.6s;
   }
+
+  .img-bg-2 {
+    left: 53%;
+  }
+
+  .img-bg {
+    left: 10.5%;
+  }
+
+  .title {
+    position: absolute;
+    font-size: 1.8rem;
+    animation: bounce-in 2s ease-out 1s;
+    top: 76%;
+    left: 5%;
+    color: #f8f9fa;
+    
+  }
+
+  .sub-title {
+    color: #f8f9fa;
+    position: absolute;
+    top: 88%;
+    right: 5%;
+    font-size: 1.5rem;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: blink-caret 0.5s step-end 5s infinite;
+    animation: bounce-in 2s ease-out 1.2s;
+  }
+  
+  .resume-btn {
+    height: auto;
+    width: 90%;
+    position: absolute;
+    top: 95%;
+    left: 5%;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: rgb(247, 167, 18);
+    color: white;
+    font-weight: 600;
+  }
+
+  .social-link-background {
+  visibility: hidden;
+  } 
 }

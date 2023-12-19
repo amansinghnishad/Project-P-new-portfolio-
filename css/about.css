@@ -37,3 +37,52 @@
   height: auto;
   margin-bottom: 20px;
 }
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+  .about-container {
+    margin: 5%;
+    margin-top: 10%;
+    width: 90%;
+    padding: 20px;
+    background-color: #0d1117;
+    border: 2px solid white;
+    border-radius: 25px;
+    
+  }
+  
+  .about-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;  
+    color: #f8f9fa;
+  }
+  
+  .about-contant {
+  
+    display: flex;
+    position: relative;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #f8f9fa;
+  
+  }
+  
+  .about-contant p {
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+    text-wrap: wrap;
+  }
+  
+  .about-contant img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+}
